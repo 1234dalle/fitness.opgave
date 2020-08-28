@@ -18,7 +18,7 @@ public class Main {
         System.out.println("**********************************************************");
 
         for(Employee employee : list){
-            employee.toString();
+            System.out.println(employee);
         }
         System.out.println("\n" + "======================================================");
     }
